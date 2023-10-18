@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    background-attachment: fixed;
+}
+#form {
+  width: 400px;
+  margin: 20vh auto 0 auto;
+  background-color:aliceblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+}
+
+#form button {
+    background-color: blueviolet;
+    margin-top: 10px;
+    padding:5px;
+    width:100%;
+    border-radius: 5px;
+}
+#form .input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group input {
+    padding:5px;
+    border-radius: 5px;
+    font-size:20px;
+    border:1px solid blue;
+    margin-top:5px;
+}
+.input-group input:focus{
+    outline: 0;
+}
+.input-group .error {
+    color:red;
+    font-size: 16px;
+    margin-bottom:5px
+}
+.input-group.success input {
+    border-color:green;
+}
+.input-group.error input {
+    border-color:red;
+}
