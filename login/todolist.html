@@ -58,9 +58,9 @@
       }
 
        /* Mobile */
-@media (min-width: 480px) {
+@media (max-width: 320px) {
     .container {
-        width: 80%;
+        width: 100%;
         min-height: 300px;
       } 
       #list {
@@ -74,9 +74,9 @@
 } 
 
 /* # Tablet */
-@media only screen and (min-width:768px ) {
+@media only screen and (min-width:321px) and (max-width:768px ) {
     .container {
-        width: 60%;
+        width: 70%;
         min-height: 300px;
       }
       #list {
@@ -85,7 +85,7 @@
         padding: 0;
       }
       #list li {
-        margin:5px auto 0 23%;
+        margin:5px auto 0 10%;
       } 
       .input-group input {
         border-radius: 10px;
@@ -93,7 +93,7 @@
         border: none;
         width:50%;
         margin-bottom: 5px;
-        width:50%;
+       min-width:70%;
       }
     
 }
